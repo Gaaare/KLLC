@@ -1,0 +1,75 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	
+	background-image:url("../img/bg2.jpg");
+}
+.sheet{
+	width:80%;
+	height:300px;
+	border: 1px solid transparent;
+	position: relative;
+	left:50%;
+	right:50%;
+	transform:translate(-50%, 0);
+	opacity: 0.85;
+	
+	-moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+	-khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+	-webkit-user-select: none; /* Chrome, Safari, and Opera */
+	-webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+.craftDrop, .sectionBar{
+	width:80%;
+	height:50px;
+	
+	display:block;
+	margin:auto;
+	
+	-moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+	-khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+	-webkit-user-select: none; /* Chrome, Safari, and Opera */
+	-webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+}
+.craftDrop{
+	background-image: url("../img/barBackground.png");
+}
+.craftDrop img, .sectionBar img{
+	display:block;
+	margin:auto;
+}
+.hidden{
+	display:none;
+	
+	-moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+	-khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+	-webkit-user-select: none; /* Chrome, Safari, and Opera */
+	-webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+}
+.sheetContainer{
+	display:block;
+	margin:auto;
+	margin-bottom:10px;
+}
+.gomie{
+	height:250px;
+}
+
+.output{
+	width:200px;
+	height:200px;
+	background-color:white;	
+}
+.drop{
+	display:none;
+}
