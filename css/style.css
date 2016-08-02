@@ -77,10 +77,52 @@ h1{
 	display:none;
 }
 .pad{
-	width:80%;
-		position: relative;
+	width:40%;
+	position: relative;
 	left:50%;
 	right:50%;
 	transform:translate(-50%, 0);
+	z-index:1;
+}
+
+.basePics img{
+	display:inline-block;
+	width:300px;	
 	
 }
+.basePics {
+	margin:auto;
+	text-align:center;
+}
+.picWrap{
+	display:inline-block;
+	
+	/* background-color:white; */
+}
+.picWrap p{
+	font-family:Arial Black;
+	margin-top:-4px;
+	background-color:white;
+	margin-bottom:10px;
+}
+.largePic{
+	display:block;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+	width:10px;
+	height:850px;
+	top:10%;
+	text-align:center;
+}
+.largePic img{
+		height:100%;
+	position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+	z-index:2;
+}
+html, body {height:100%;overflow:auto}
