@@ -10,7 +10,7 @@ $(document).ready(function(){
 	var c4 = {explosive:"25", cloth: "5"};
 	   
 /* 	$(".submit").on("click",function(){
-		var calc=$(".resource").val();
+		var calcsafasdfa=$(".resource").val();
 		var number=$(".number").val();
 		console.log(number);
 		switch(calc){
