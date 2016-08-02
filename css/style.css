@@ -20,9 +20,9 @@ body{
     -ms-user-select: none; /* Internet Explorer */
 	-khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
 	-webkit-user-select: none; /* Chrome, Safari, and Opera */
-	-webkit-touch-callout: none; /* Disable Android and iOS callouts*/
-}
-
+	-webkit-touch-callout: none; /* Disable Android    and iOS callouts*/
+}  
+ 
 h1{
 	color: white;
 	text-align: center;
