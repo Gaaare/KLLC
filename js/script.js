@@ -3,9 +3,10 @@ $(document).ready(function(){
 	
 		$(this).next().slideToggle();
 	})
-	$(".section").on("click",function(){
-		$(this).children(".drop").slideToggle();
-	})
+	$(".sectionBar").on("click",function(){
+		$(this).next(".drop").slideToggle();
+		alert(1);
+	}) 
 	var c4 = {explosive:"25", cloth: "5"};
 	
 /* 	$(".submit").on("click",function(){
@@ -19,4 +20,4 @@ $(document).ready(function(){
 				break;
 		}
 	}) */
-})
+}) 
