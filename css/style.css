@@ -5,6 +5,8 @@
 body{
 	
 	background-image:url("../img/bg.jpg");
+	  background-repeat: no-repeat;
+    background-attachment: fixed;
 } 
 
 .sheet{
@@ -73,4 +75,12 @@ h1{
 }
 .drop{
 	display:none;
+}
+.pad{
+	width:80%;
+		position: relative;
+	left:50%;
+	right:50%;
+	transform:translate(-50%, 0);
+	
 }

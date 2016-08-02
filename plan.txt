@@ -4,6 +4,8 @@ Friendly players / unfriendly / slaves
 base design guideline
 
 
+Notice Board 
+
 
 crafting: 
 code lock
