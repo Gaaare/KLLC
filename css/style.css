@@ -106,4 +106,24 @@ h1{
 	background-color:white;
 	margin-bottom:10px;
 }
+.baseTag{
+	font-family:Arial Black;
+	background-color:white;
+	width:220px;
+	display:block;
+	margin:auto;
+	margin-bottom:10px;
+}
+.logo{
+	display:block;
+	margin:auto;
+	width:350px;
+	height:350px;
+	margin-bottom:25px;
+}
 html, body {height:100%;overflow:auto}
+.basePaste{
+	width:200px;
+	height:75px;
+	resize:none;
+}
