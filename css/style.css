@@ -77,13 +77,13 @@ h1{
 	display:none;
 }
 .pad{
-	width:40%;
+	width:25%;
 	position: relative;
 	left:50%;
 	right:50%;
 	transform:translate(-50%, 0);
-	
-	min-width:800px;
+	resize:both;
+	min-width:600px;
 }
 
 .basePics img{
@@ -97,14 +97,24 @@ h1{
 }
 .picWrap{
 	display:inline-block;
+	width:300px;
+	height:300px;
+	overflow:hidden;
 	
 	/* background-color:white; */
+}
+.picWrap img{
+	overflow:hidden;
+	min-width:100%;
+	min-height:90%;
+	z-index:1;
 }
 .picWrap p{
 	font-family:Arial Black;
 	margin-top:-4px;
 	background-color:white;
 	margin-bottom:10px;
+	z-index:2;
 }
 .baseTag{
 	font-family:Arial Black;
