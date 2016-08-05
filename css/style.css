@@ -146,8 +146,8 @@ html, body {height:100%;overflow:auto}
 	margin:auto;
 }
 .marker{
-	width:10px;
-	height:10px;
+	width:15px;
+	height:24px;
 }
 .a{
 	position:relative;	
