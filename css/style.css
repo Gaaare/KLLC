@@ -137,3 +137,32 @@ html, body {height:100%;overflow:auto}
 	height:75px;
 	resize:none;
 }
+
+
+.map{
+	background-image: url("../img/map.jpg");
+	width:1000px;
+	height:1000px;
+}
+.marker{
+	width:35px;
+	height:35px;
+}
+.a{
+	position:relative;	
+	top: 110px;
+    left: 655px;
+}
+.b{
+	position:absolute;
+}
+.c{
+	position:absolute;
+}
+.d{
+	position:absolute;
+}
+.mapContainer{
+	display:block;
+	margin:auto;
+}
