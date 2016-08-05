@@ -141,26 +141,29 @@ html, body {height:100%;overflow:auto}
 
 .map{
 	background-image: url("../img/map.jpg");
-	width:1000px;
-	height:1000px;
+	width:800px;
+	height:800px;
+	margin:auto;
 }
 .marker{
-	width:35px;
-	height:35px;
+	width:10px;
+	height:10px;
 }
 .a{
 	position:relative;	
-	top: 110px;
-    left: 655px;
+	top: 200px;
+    left: 125px;
 }
 .b{
-	position:absolute;
+	position:relative;
+	top: 180px;
+    left: 129px;
 }
 .c{
-	position:absolute;
+	position:relative;
 }
 .d{
-	position:absolute;
+	position:relative;
 }
 .mapContainer{
 	display:block;
