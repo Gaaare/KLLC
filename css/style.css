@@ -161,9 +161,12 @@ html, body {height:100%;overflow:auto}
 }
 .c{
 	position:relative;
+	
 }
 .d{
 	position:relative;
+	left: 95px;
+    top: 133px;
 }
 .mapContainer{
 	display:block;

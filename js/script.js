@@ -8,7 +8,7 @@ $(document).ready(function(){
 		
 	}) 
 	
-	
+	$(".marker").draggable();
 	var c4 = {explosive:"25", cloth: "5"};
 	   
 /* 	$(".submit").on("click",function(){

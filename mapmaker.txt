@@ -1,0 +1,5 @@
+button= new marker
+drag marker 
+create tooltip
+add image 
+save
