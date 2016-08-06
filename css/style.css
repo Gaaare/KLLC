@@ -149,21 +149,22 @@ html, body {height:100%;overflow:auto}
 	width:15px;
 	height:24px;
 }
-.a{
+.a{ /*main base*/
 	position:relative;	
 	top: 200px;
     left: 125px;
 }
-.b{
+.b{ /*sleeping bags*/
 	position:relative;
 	top: 180px;
     left: 129px; 
 }
-.c{
+.c{ /*fob*/
 	position:relative;
-	
+	left: 132px;
+    top: 151px;
 }
-.d{
+.d{ /*enemy base: lizzykitty & nata*/
 	position:relative;
 	left: 95px;
     top: 133px;
