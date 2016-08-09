@@ -169,7 +169,29 @@ html, body {height:100%;overflow:auto}
 	left: 95px;
     top: 133px;
 }
+.e{
+	position:relative; /*blackJesus base*/
+	left: 193px;
+    top: 346px;
+}
+.f{
+	position:relative; /*potential raid*/
+	left: 66px;
+    top: 402px;
+}
+.g{
+	position:relative; /*titan tower*/
+	left: 53px;
+    top: 161px;
+}
 .mapContainer{
 	display:block;
 	margin:auto;
+}
+.mapLink{
+		display:block;
+		margin:auto;
+		background-color:white;
+		text-align:center;
+		width:100px;
 }
